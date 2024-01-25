@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Medicine Recommendation System</title>
+    <link rel="stylesheet" href="/static/style.css">
+    
+</head>
+<body>
+
+    <!-- <div class="head">
+       <img src="/static/images/medicine-head.jpeg"> Medicine Recommendation System
+    </div> -->
+    <div class="box">
+    <h1>Medicine Recommendation System</h1>
+    <form action="/" method="post">
+        <select id="medicines" name="name">
+            <option value="" id="medicine">medicine1</option>
+        </select>
+        <p>select your medicine name whose alternative is to be recommended</p>
+        <button>Recommend Medicine</button>
+        
+    </form>
+    <div id="redmeds">
+    </div>
+    <p>Note:It is essential to follow the doctor's guidance and instructions when using this medicine.</p>
+    </div>
+</body>
+
+<script>
+    var my_list = JSON.parse('{{ medis | tojson }}');
+    console.log(my_list);
+    var my_list2 = JSON.parse('{{ recmed | tojson }}');
+    console.log(my_list2);
+    var flag = "{{name}}";
+    console.log(flag);
+</script>
+<script src="/static/script.js">
+</script>
+</html>
