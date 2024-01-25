@@ -1,0 +1,117 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(/static/images/final\ bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  /* Head section styles */
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .head img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .head h1 {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Box section styles */
+  .box {
+    margin: 30% auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+  }
+  
+  .box h1{
+    margin-left: 13%;
+  }
+  .box form {
+    margin-bottom: 20px;
+  }
+  
+  .box p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .box select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Recommended Medicines section styles */
+  #redmeds {
+    margin-top: 20px;
+  }
+  
+  #redmeds h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #redmeds h2 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #redmeds a {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #redmeds p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #777;
+  }
+  
